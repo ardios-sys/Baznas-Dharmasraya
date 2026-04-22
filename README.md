@@ -1,11 +1,23 @@
-<div align="center">
+# BAZNAS Kabupaten Dharmasraya - News App
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Aplikasi berita dan kalkulator zakat untuk BAZNAS Kabupaten Dharmasraya.
 
-  <h1>Built with AI Studio</h2>
+## Fitur
+- Berita terbaru seputar kegiatan BAZNAS Dharmasraya.
+- Kalkulator Zakat (Penghasilan, Maal, Emas, dll) dengan format angka otomatis.
+- Galeri foto kegiatan.
+- Program-program BAZNAS.
+- Input berita baru dengan bantuan AI (Gemini).
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Cara Deploy ke Netlify
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+1.  **Hubungkan ke GitHub/GitLab/Bitbucket**: Unggah kode ini ke repositori Git Anda.
+2.  **Buat Situs Baru di Netlify**: Pilih repositori Anda.
+3.  **Pengaturan Build**:
+    - **Build Command**: `npm run build`
+    - **Publish Directory**: `dist`
+4.  **Environment Variables**:
+    - Tambahkan `GEMINI_API_KEY` di bagian **Site settings > Build & deploy > Environment variables**.
+5.  **Deploy**: Klik "Deploy site".
 
-</div>
+Aplikasi ini sudah dilengkapi dengan `netlify.toml` dan `_redirects` untuk menangani routing SPA (Single Page Application) secara otomatis.

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://baznas-dharmasraya.netlify.app/sitemap.xml
